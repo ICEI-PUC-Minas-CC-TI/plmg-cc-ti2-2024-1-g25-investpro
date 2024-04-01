@@ -1,18 +1,19 @@
-# [Nome do projeto]
+# InvestPro
 
-[Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.]
+  Auxiliar as pessoas a alcançarem maior controle sobre suas finanças pessoais, proporcionando ferramentas para o planejamento e gerenciamento eficaz de seus recursos financeiros.
 
 ## Alunos integrantes da equipe
 
-* [Nome completo do aluno 1]
-* [Nome completo do aluno 2]
-* [Nome completo do aluno 3]
-* [Nome completo do aluno 4]
+* Ana Clara Duarte
+* Daniela Santos Nacur
+* Arthur Braga
+* Enzo Castro
+* Alexandre Lacerda
 
 ## Professores responsáveis
 
-* [Nome completo do professor 1]
-* [Nome completo do professor 2]
+* Ilo
+* Luciana
 
 ## Instruções de utilização
 
