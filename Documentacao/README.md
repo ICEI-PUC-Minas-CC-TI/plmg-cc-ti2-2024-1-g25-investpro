@@ -18,9 +18,8 @@ CURSO
 ## Professores responsáveis
 
 
-* Lucio
-* Romel Vieira Carneiro
-* Ayala
+* Ilo
+* Luciana
 
 # Estrutura do Documento
 
