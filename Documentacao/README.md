@@ -123,8 +123,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-05| O site deve mostrar a rentabilidade de diferentes tipos de investimento | Alta       |
 | RF-06| O site deve permitir a configuração de diferentes perfis (Casa, pessoal, trabalho) | Baixa      |
 | RF-07| O site deve permitir que o usuário categorize suas compras      | Média      |
-| RF-08| O site deve apresentar notícias relevantes      | Média      |
-
 
 
 ### Requisitos não Funcionais
