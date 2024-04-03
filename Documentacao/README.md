@@ -10,10 +10,10 @@ CURSO
 ## Alunos integrantes da equipe
 
 * Arthur Braga de Carvalho
-* Eduardo Spinelli
-* Guilherme Lima Martini
-* Rodrigo Machado Ribeiro da Gloria
-* Pedro Xavier
+* Daniela Santos
+* Alexandre Lacerda
+* Ana Clara Iannini
+* Enzo Castro Figueredo
 
 ## Professores responsáveis
 
