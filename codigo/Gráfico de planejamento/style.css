@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+
+  button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #chart_div {
+      margin: 20px auto;
+      max-width: 600px;
+  }
