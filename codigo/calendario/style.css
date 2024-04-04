@@ -1,5 +1,7 @@
 body {
   font-family: Arial, sans-serif;
+  background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+  color: white;
 }
 
 .calendar {
@@ -19,12 +21,12 @@ th, td {
 }
 
 th {
-  background-color: #333;
+  background-color: #111d0b;
   color: #fff;
 }
 
 td {
-  border: 1px solid #ddd;
+  border: 1px solid #164210;
   position: relative;
   height: 80px; /* Aumenta a altura das células do calendário */
 }

@@ -445,7 +445,7 @@ video {
 
 .bg-zinc-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(39 39 42 / var(--tw-bg-opacity))
+  background: linear-gradient(245.59deg, #0a290f 0%, #0e2b10 28.53%, #082c0d 75.52%);
 }
 
 .p-10 {
@@ -477,7 +477,7 @@ video {
 
 body {
   --tw-bg-opacity: 1;
-  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+  background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
 }
