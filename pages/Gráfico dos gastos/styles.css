@@ -1,0 +1,20 @@
+body {
+  font-family: 'poppins', sans-serif;
+  background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+  min-height: 100vh; /* Define a altura mínima do corpo para ocupar toda a altura da viewport */
+}
+
+#donutchart {
+  margin-bottom: 20px; /* Adiciona um espaço abaixo do gráfico */
+}
+
+.button-list {
+  list-style-type: none; /* Remove a marcação da lista */
+  padding: 0; /* Remove o preenchimento padrão da lista */
+  display: flex; /* Exibe os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.button-list li {
+  margin-right: 10px; /* Adiciona um espaço entre os botões */
+}
