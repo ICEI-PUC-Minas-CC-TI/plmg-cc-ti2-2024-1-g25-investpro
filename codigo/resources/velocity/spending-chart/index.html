@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="/js/graficoControle.js"></script>
+    <link rel="stylesheet" href="/css/graficoControle.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="/img/logo/822616_preview.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                InvestPro
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="docs/index.html">Docs</a>
+                    </li>
+                    -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/calculator">Investimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inflation-chart">Câmbio e Inflação</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Gestão Financeira
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/calendar">Calendário</a></li>
+                            <li><a class="dropdown-item" href="/planning-chart">Planejamento
+                                    Mensal</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Controle de Gastos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/financial-registration">Cadastro de
+                                    Gastos</a></li>
+                            <li><a class="dropdown-item" href="/spending-chart">Gráfico de
+                                    Controle</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/personal-registration">Cadastro</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="donutchart"></div>
+    <ul class="button-list">
+        <li><button class="rounded-pill m-1" onclick="updateLazerValor()">Lazer</button></li>
+        <li><button class="rounded-pill m-1" onclick="updateAlimentacaoValor()">Alimentação</button></li>
+        <li><button class="rounded-pill m-1" onclick="updateContasValor()">Contas</button></li>
+        <li><button class="rounded-pill m-1" onclick="updateRemediosValor()">Remédios</button></li>
+        <li><button class="rounded-pill m-1" onclick="updateAluguelValor()">Aluguel</button></li>
+    </ul>
+
+</body>
+
+</html>

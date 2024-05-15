@@ -1,0 +1,45 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Pessoal</title>
+
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <link rel="stylesheet" href="/css/cadastroPessoal.css">
+</head>
+
+<body>
+
+    <div id="main-container">
+        <h1>Login para acessar o sistema</h1>
+
+        <!--
+            <button id="btnCarregaDados">Carrega Dados</button> 
+        -->
+        
+        <div id="tela"></div>
+
+        <form id="login-form" action="">
+            <div class="full-box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="2"
+                    data-email-validate required>
+            </div>
+            <div class="half-box">
+                <label for="passconfirmation">Senha</label>
+                <input type="password" name="passconfirmation" id="passwordconfirmation" placeholder="Digite sua senha"
+                    data-equal="password" required>
+            </div>
+            <div class="full-box">
+                <input id="btn-submit" type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+    <p class="error-validation template"></p>
+    <script src="/js/cadastroPessoal.js"></script>
+</body>
+
+</html>
