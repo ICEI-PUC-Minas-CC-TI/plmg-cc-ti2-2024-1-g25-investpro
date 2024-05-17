@@ -29,7 +29,7 @@ public class DAO {
 		} catch (ClassNotFoundException e) { 
 			System.err.println("Conexão NÃO efetuada com o postgres -- Driver não encontrado -- " + e.getMessage());
 		} catch (SQLException e) {
-			System.err.println("Conexão NÃO efetuzada com o postgres -- " + e.getMessage());
+			System.err.println("Conexão NÃO efetuada com o postgres -- " + e.getMessage());
 		}
         return status;
     }
