@@ -1,0 +1,19 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+  color: white;
+  /* Adiciona texto em branco */
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#chart_div {
+  margin: 20px auto;
+  max-width: 600px;
+}
