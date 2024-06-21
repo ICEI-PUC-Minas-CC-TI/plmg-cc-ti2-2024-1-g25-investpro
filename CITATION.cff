@@ -1,31 +1,31 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: InvestPro
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Iannini de Resende Duarte
+    given-names: Ana Clara
+  - family-names: Santos Nacur
+    given-names: Daniela
+  - family-names: Castro Figueredo
+    given-names: Enzo
+  - family-names: Lacerda de Melo
+    given-names: Alexandre
+  - family-names: Braga de Carvalho
+    given-names: Arthur
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: 
-    given-names: 
+    given-names: Ilo
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: 
-    given-names: 
+    given-names: Luciana
 keywords:
-  - 
-  - 
+  - Finanças
+  - Investimento
+  - Gastos
+  - Economia
 repository-code: 
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2024-06-21
