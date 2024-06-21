@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+  color: white;
+}
+
+.calendar {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  background-color: #111d0b;
+  color: #fff;
+}
+
+td {
+  border: 1px solid #164210;
+  position: relative;
+  height: 80px; /* Aumenta a altura das células do calendário */
+}
+
+td.selectable {
+  cursor: pointer;
+}
+
+td.selectable:hover {
+  background-color: lightgray;
+}
+
+.expense-info {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  bottom: 5px;
+  left: 5px;
+  display: inline-block;
+}
+
+/* Cores diferentes para tipos de gastos */
+td.selectable[data-expense-type="lazer"] { background-color: blue; }
+td.selectable[data-expense-type="medico"] { background-color: red; }
+td.selectable[data-expense-type="comida"] { background-color: green; }
+td.selectable[data-expense-type="automovel"] { background-color: orange; }
+td.selectable[data-expense-type="casa"] { background-color: purple; }
