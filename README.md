@@ -15,6 +15,6 @@
 * Ilo
 * Luciana
 
-## Instruções de utilização
+## Vídeo
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+https://drive.google.com/file/d/1omeGJQ3rIgZembLBix3oT1IM-_w56c6U/view?usp=sharing
